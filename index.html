@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Pet Adoption</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="container">
+
+        <h1>Adopt a Pet</h1>
+        
+        <div class="pets-grid" id="pets-container">
+
+        </div>
+
+    </div>
+
+    <div class="form-container">
+
+        <h1>Add a New Pet</h1>
+
+        <form id="pet-form" enctype="multipart/form-data">
+
+            <label>Name: </label>
+
+            <div class="form-group">
+                <input type="text" name="name" required>
+            </div>
+
+            <label>Age: </label>
+
+            <div class="form-group">
+                <input type="number" name="age" required></label>
+            </div>
+
+            <label>Breed: </label>
+
+            <div class="form-group">
+                <input type="text" name="breed" required>
+            </div>
+
+            <label>Image: </label>
+
+            <div class="form-group">
+                <input type="file" name="image" accept="image/*" required>
+            </div>
+
+            <button type="submit">Add Pet</button>
+    
+        </form>
+        
+    </div>
+    
+    <script src="script.js"></script>
+</body>
+</html>
